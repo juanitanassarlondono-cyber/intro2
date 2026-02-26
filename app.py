@@ -4,7 +4,7 @@ from PIL import Image
 st.title("Bienvenido a primera app")
 
 st.header("Aqui empiezas a navegar en mi app")
-st.writer("Facilmente puedo realizar backend y frontend.")
+st.write("Facilmente puedo realizar backend y frontend.")
 image = Image.open("caballitos.jpg")
 st.image(image, caption='Libertad')
 
