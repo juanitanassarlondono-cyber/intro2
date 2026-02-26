@@ -8,6 +8,6 @@ st.writer("Facilmente puedo realizar backend y frontend.")
 image = Image.open('caballitos.jpg')
 st.image(image, caption='Libertad')
 
-texto.st.text_input('los caballos definen perfección, nobleza y salvaje´)
-st. write('App para ver caballos lindos')
+texto = st.text_input('los caballos definen perfección, nobleza y salvaje´)
+st. write('el texto escrito es' , texto)
                     
